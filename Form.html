@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form Using HTML</title>
+        <link rel="stylesheet" href="txt.css">
+
+    </head>
+    <body bgcolor="pink">
+        <font size="20" color="red">
+            <table align="center" bgcolor="aqua" border="0" cellpadding="20" width="100%" cellspacing="0">
+                <tr id="head"> 
+                    <th class="text"><b><em>Champ_Web_Villa</em></b></th>
+                </tr>
+            </table>
+            </font>
+            <table width="100%" align="right" cellpadding="30" cellspacing="0" bgcolor="aqua">
+                <tr>
+                    <th class="text"><a href="main.html">HOME</a></th>
+                    <th class="text">ABOUT US</th>
+                    <th class="text">LISTING</th>
+                    <th class="text"><a href="contactus.html"> CONTACT US</a></th>
+                    <th class="text"><a href="faqs.html">FAQS</a></th>
+                    <th class="text"><a href="Form.html">NEW USER</a></th>
+                    <th class="text"><a href="aboutme.html">ABOUT EMP</a></th>
+                </tr>
+            </table>
+        <br><br>
+        <form>
+            <fieldset>
+                <h1 align ="center"><em> <u>Employee Application Information</u></em></h1>
+                <img src="ali.jpg" alt="Person" style="width: 300px;height: 270px;" ALIGN="right">
+                <br><br>
+                First Name:
+                <label>
+                <input type="text" id="fname" name="fname" placeholder="Enter First Name"requird>
+                </label>
+                <br><br><br>
+
+                Last Name:
+                <input type="text" id="lname" name="lname" placeholder="Enter Last Name"requird>
+                <br><br><br>
+
+            Gender:
+            <input type="radio" gender=male" value="male">Male
+            <input type="radio" gender="female" value="female">Female
+            <br>
+            <br><br>
+
+            Birthday:
+            <input type="datetime-local" name="bdaytime">
+            <br><br><br>
+            Country:
+            <input type list="country" name="country">
+            <datalist id="country">
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="England">England</option>
+                <option value="Australia">Australia</option>
+                <option value="Sweden">Sweden</option>
+                </datalist>
+                <br><br>
+
+                Email Id:
+                <input type="email" name="email">
+                <br><br>
+
+                Favourite Color:
+                <input type="color" name="favcolor" type="#DC143C">
+                <br><br><br>
+                Address:
+                <br>
+                <textarea name="mytext" rows="5" cols="40"></textarea>
+                <br><br><br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend><h2>Work Experience</h2></legend>
+
+            Knowledge In:
+            <input type="checkbox" name="HTML" value="HTML">HTML
+            <input type="checkbox" name="CSS" value="CSS">CSS
+            <input type="checkbox" name="JAVASCRIPT" value="JAVASCRIPT">JAVASCRIPT
+            <input type="checkbox" name="CORE JAVA" value="CORE JAVA">CORE JAVA
+            <input type="checkbox" name="SQL" value="SQL">SQL
+            <br><br>
+            Year of Experience:
+            <input type="number" name="years" min="0" max="50" step="1" value="0">
+        </fieldset>
+            <br><br>
+         <center><input type="submit" value="Submit"></center>
+         <br><br>
+        </form>
+        <br>
+        <table width="100%" border="0" cellpadding="10">
+            <tr>
+            <td align ="center"  bgcolor="dark yellow">&copy; Copyright 2021, All Right Reserved</td>
+            </tr>
+        </table>
+        <hr>
+    </body>
+</html>

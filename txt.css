@@ -1,0 +1,11 @@
+table{
+    text-align: center;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #00ff9d 0%, #05b6ec 74%);
+    margin:0;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
